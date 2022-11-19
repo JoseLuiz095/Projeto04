@@ -1,7 +1,7 @@
 n=m=0
 
 while True:
-    n=int(input('Qual o numero que será multiplicado...'))
+    n=int(input('Qual o numero que será multiplicado... \n (numeros negativos,finalizara o Terminal.) ->'))
     if n<=-1:
         break
     print(50*'-')
